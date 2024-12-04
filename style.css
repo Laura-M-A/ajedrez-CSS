@@ -1,0 +1,28 @@
+body {
+  background-color:rgb(68, 32, 32);
+}
+
+.tablero {
+  margin: auto;
+  width: 480px;
+  border: groove 20px;
+  border-color: white, wheat; 
+}
+
+.contenedor{
+  display: flex;
+}
+
+.fila {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.fondoNegro {
+  background-color: rgb(15, 133, 127);
+}
+
+.fondoBlanco {
+  background-color: wheat
+}
